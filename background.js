@@ -1,4 +1,3 @@
-// background.js
 let clickedElText = '';
 
 chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
@@ -27,12 +26,10 @@ function copyTextToClipboard(text, tab) {
     }, function() {
         if (chrome.runtime.lastError) {
             console.error(chrome.runtime.lastError.message);
-        } else {
-            console.log('Text copied to clipboard:', text);
         }
     });
 }
 
 function functionToInject(text) {
-    navigator.clipboard.writeText(text);
+    simplecopy(text);
 }
