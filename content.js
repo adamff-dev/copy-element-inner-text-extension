@@ -1,5 +1,7 @@
-document.addEventListener('contextmenu', function(e) {
-    let element = e.target;
-    let text = element ? element.innerText : '';
-    chrome.runtime.sendMessage({text: text});
+document.addEventListener('mousedown', (event) => {
+    if (event.button == 2) {
+        let element = event.target;
+        let text = element ? element.innerText : '';
+        chrome.runtime.sendMessage({ text });
+    }
 });
