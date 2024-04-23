@@ -1,4 +1,4 @@
-# Copy element inner text extension
+# Copy element inner text Chrome extension
 
 This Chrome extension allows users to copy the inner text of the element they right-click on a web page to their clipboard.
 
