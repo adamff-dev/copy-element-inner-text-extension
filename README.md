@@ -2,7 +2,7 @@
 
 This Chrome extension allows users to copy the inner text of any element you right-click on a web page to their clipboard.
 
-Preview: https://youtu.be/9EU_ya9sP-Q
+Preview: [https://youtu.be/9EU_ya9sP-Q](https://youtu.be/zHLTk4D-l_o)
 
 ## Steps to Install the Compressed Extension
 
