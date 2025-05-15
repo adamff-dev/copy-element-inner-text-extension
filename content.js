@@ -4,4 +4,4 @@ document.addEventListener('mousedown', (event) => {
         let text = element ? element.innerText : '';
         chrome.runtime.sendMessage({ text });
     }
-});
+}, { capture: true }); // Capture phase to ensure we get the event before any other handlers
